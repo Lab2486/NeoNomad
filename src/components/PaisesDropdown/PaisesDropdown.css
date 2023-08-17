@@ -1,0 +1,38 @@
+.dropdownContainer {
+  position: relative;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 0;
+  left: 56px;
+  width: 150px; /* Tamaño del dropdown */
+  max-height: 650px; /* Altura máxima del dropdown */
+  overflow-y: auto; /* Añadimos scroll vertical */
+  list-style: none;
+  padding: 0;
+  margin: 50px 20px;
+  background-color: rgb(32, 32, 32);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  z-index: 999;
+}
+
+.dropdownMenu li {
+  padding: 8px 16px;
+  text-align: center;
+}
+
+.dropdownMenu li:hover {
+  background-color: black;
+}
+
+.navLinks {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navLinks:hover {
+  color: #f2f2f2;
+}

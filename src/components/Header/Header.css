@@ -1,0 +1,18 @@
+.header {
+  background-color: black;
+  width: 88%;
+  margin-left: 180px;
+  height: 70px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand {
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 10px;
+}

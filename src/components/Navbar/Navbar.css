@@ -1,0 +1,73 @@
+.navbarContainer {
+  z-index: 10;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 12%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  gap: 20px;
+  border-right: 2px solid white;
+}
+.navOptions {
+  list-style: none;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+  height: 70%;
+  justify-content: space-around;
+}
+.loginCont {
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.login-btn {
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 90%;
+  width: 50%;
+}
+.user {
+  width: 100%;
+  font-size: 5rem;
+  color: white;
+}
+.navLinksCont {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.navLinks {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  display: flex;
+  gap: 20px;
+}
+
+.navLinks:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 2px white;
+}
+.navFooter {
+  color: white;
+  font-size: 0.7rem;
+  margin: 0 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.navFooter p a {
+  color: lightgray;
+  text-decoration: none;
+  font-size: 0.8rem;
+}

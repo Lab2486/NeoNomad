@@ -1,0 +1,14 @@
+:root {
+  background-color: #000000;
+
+  background-image: linear-gradient(
+      #191919 0.6000000000000001px,
+      transparent 0.6000000000000001px
+    ),
+    linear-gradient(
+      to right,
+      #191919 0.6000000000000001px,
+      #000000 0.6000000000000001px
+    );
+  background-size: 12px 12px;
+}

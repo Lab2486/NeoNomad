@@ -1,0 +1,7 @@
+.categoryImgContainer {
+  width: 100%;
+  display: flex;
+  margin: 20px 0;
+  justify-content: center;
+  gap: 40px;
+}

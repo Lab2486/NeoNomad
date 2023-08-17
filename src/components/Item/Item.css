@@ -1,0 +1,129 @@
+.itemContainer {
+  width: 30%;
+  height: 190px;
+  color: white;
+}
+.productHeader {
+  margin: 10px 0;
+}
+.productName {
+  margin: 0;
+  text-align: center;
+}
+.itemMain {
+  text-align: start;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+}
+.itemInfoCont {
+  display: flex;
+  margin: 0 10px;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 90%;
+}
+.itemHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  background: linear-gradient(
+    308deg,
+    rgb(0, 0, 0) 0%,
+    rgb(93, 72, 154) 35%,
+    rgb(60, 175, 125) 100%
+  );
+  border-radius: 20px;
+  height: 180px;
+  margin-top: 5px;
+  border: 1px solid grey;
+}
+.productDescription {
+  text-align: center;
+  margin: 10px 5px;
+}
+.productImg {
+  width: 100%;
+}
+
+.productPrice {
+  margin: 0;
+}
+.fav-btn {
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.itemCenter {
+  text-align: start;
+  width: 100%;
+}
+.itemDescription {
+  font-size: 0.8rem;
+}
+.priceCont {
+  display: flex;
+  gap: 20px;
+  margin-top: 5px;
+}
+.productPriceFull {
+  color: gray;
+  text-decoration-line: line-through;
+}
+.descuento {
+  color: green;
+}
+
+.itemFooter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.talles {
+  display: flex;
+  justify-content: space-around;
+}
+.tallesBtn {
+  width: 25px;
+  height: 25px;
+  border: none;
+  background: none;
+  border-radius: 50%;
+  color: white;
+  font-weight: 500;
+}
+.tallesBtn:hover {
+  background-color: rgb(93, 72, 154);
+}
+.footerBtnsCont {
+  display: flex;
+  justify-content: space-around;
+}
+.footerBtn {
+  background: none;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 40%;
+  color: white;
+  font-weight: 400;
+}
+.footerBtn:hover {
+  background-color: rgb(93, 72, 154);
+}
